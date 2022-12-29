@@ -5,3 +5,9 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+
+["Aerosmith", "Metallica", "Tool", "Led Zeppelin", "Killswitch Engage"].each do |band_name|
+  Band.create(name: band_name)
+end
+
+p "db seeded..."
